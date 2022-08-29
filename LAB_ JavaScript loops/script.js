@@ -11,4 +11,4 @@ function drawTriangle(triangleSize) {
   }
    
 }
-drawTriangle(4)
+console.log(drawTriangle(4));
