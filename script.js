@@ -8,6 +8,4 @@ function drawTriangle(n) {
   }
   console.log(output);
 }
-
-drawTriangle(4);
-
+drawTriangle(7);
