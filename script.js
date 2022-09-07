@@ -1,10 +1,12 @@
 function drawTriangle(n) {
   let output = "";
-  for (let i = 1; i <= n; i++) {
-    for (let j = 0; j < i; j++) {
+  for (var i = 1; i <= n; i++) {
+    for (var j = 1; j <= i; j++) {
       output += "*";
     }
+    if (i < n) {
     output += "\n";
+    }
   }
   console.log(output);
 }
